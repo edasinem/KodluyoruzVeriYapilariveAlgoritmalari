@@ -1,0 +1,22 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Root: 7
+5 - 7'den küçük olduğu için root'un sol kanadında 5 yer alır.
+1 - 7'den küçük olduğu için root'un sol kanadında ve 5'in de sol kanadında yer alır.
+8 - 7'den büyük olduğu için root'un sağ kanadında yer alır.
+3 - 7'den küçük olduğu için root'un sol kanadında yer alır. 1'den büyük olduğu için 1'in sağ kanadında yer alır.
+6 - 7'den küçük olduğu için root'un sol kanadında yer alır. 5'den büyük olduğu için 5'in sağ kanadında yer alır.
+0 - 7'den küçük olduğu için root'un sol kanadında yer alır. 1'den küçük olduğu için 1'in sol kanadında yer alır.
+9 - 7'den büyük olduğu için root'un sağ kanadında yer alır. 8'den büyük olduğu için 8'in sağ kanadında yer alır.
+4 - 7'den küçük olduğu için root'un sol kanadında yer alır. 3'den büyük olduğu için 3'ün sağ kanadında yer alır.
+2 - 7'den küçük olduğu için root'un sol kanadında yer alır. 3'den küçük olduğu için 3'ün sol kanadında yer alır.
+
+                                     7
+                                    / \
+                                   5   8
+                                  / \   \
+                                 1   6   9
+                                / \
+                               0   3
+                                  / \
+                                 2   4
